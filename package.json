@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "set RUST_BACKTRACE=1 && cargo run bitmesh-cli",
+        "prepare": "cargo install"
+    }
+}

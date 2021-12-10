@@ -1,0 +1,15 @@
+[package]
+name = "bitmesh-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bmp = "0.5.0"
+image = "0.23.14"
+plotters = "^0.3.1"
+base64 = "0.13.0"
+rand = "0.8.4"
+mnist = "0.5.0"
+ndarray = "0.15.4"
+bitmesh-probes = { path = "../bitmesh-probes" }
+bitmesh-server = { path = "../bitmesh-server" }

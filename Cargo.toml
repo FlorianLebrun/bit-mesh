@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "lib/bitmesh-cli",
+    "lib/bitmesh-server",
+    "lib/bitmesh-probes",
+    "lib/bitmesh-compute",
+]
