@@ -9,6 +9,6 @@ image = "0.23.14"
 plotters = "^0.3.1"
 base64 = "0.13.0"
 rand = "0.8.4"
-actix-web = "4.0.1"
 bitmesh-probes = { path = "../bitmesh-probes" }
+rocket = "0.5.0"
 

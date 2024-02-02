@@ -3,6 +3,10 @@ name = "bitmesh-cli"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name="playground"
+path="src/main.rs"
+
 [dependencies]
 bmp = "0.5.0"
 image = "0.23.14"

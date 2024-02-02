@@ -5,7 +5,8 @@
 
 Vector to scalar regression primitive `uint(*)[] -> uint(*)`, with optimization based on probalistic mutation defined from feeback signal.
 
-Parameters are optimized with mutagen (oriented mutation probability) to increase or decrease the parameter in function of mutagen sign
+Parameters are optimized with mutagen (oriented mutation probability) to increase or decrease the parameter in function of mutagen sign.
+Each time a mutation is done a anti mutation signal shall be propagated to other gates with dumping factor at each gate transfert.
 
 ## Interpolation Gate
 

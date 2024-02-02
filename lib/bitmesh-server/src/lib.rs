@@ -1,7 +1,4 @@
-#![allow(dead_code)]
-use actix_web::http::header::ContentType;
-use actix_web::http::StatusCode;
-use actix_web::{get, App, HttpResponse, HttpServer, Result};
+#![allow(unused)]
 use core::panic;
 use image::*;
 use std::{ops::Deref, thread};
@@ -32,7 +29,7 @@ async fn api_probes() -> Result<HttpResponse> {
     panic!()
 }
 
-#[actix_web::main]
+#[rocket::main]
 async fn server_routine() {
     let port = 8080;
     println!("server run: http://localhost:{0}", port);
